@@ -1,10 +1,9 @@
-package ch01;
+package ch01.q15;
 
 import java.util.Arrays;
 import java.util.Scanner;
 
 public class PascalsTriangle {
-
     public static void main(String[] args) {
         System.out.print("Please enter a triangle height: ");
         Scanner in = new Scanner(System.in);
