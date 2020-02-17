@@ -11,10 +11,18 @@ class MagicSquare {
         // get first row of square
         String firstRow = getInput("Please enter the first row of the square as integers separated by a single space: ");
         ArrayList<Integer> firstRowAsArray = parseInputToArray(firstRow);
-        // prompt for next rows of square based on length of first array
+        
+        // given the length of the first row, prompt user to input remaining rows of the square
         ArrayList<ArrayList<Integer>> square = getRemainderOfSquare(firstRowAsArray);
-        System.out.println(square);
-        // calculate sum
+        System.out.println("Your square: ");
+        printSquare(square);
+        
+        // calculate sums
+        List<Integer> sums = getSums(square);
+
+        // get result
+        boolean isMagicSquare = isMagicSquare(sums);
+        System.out.println(isMagicSquare ? "You've entered a Magic Square!" : "This is not a Magic Square");
     }
 
     public static String getInput(String message) {
@@ -48,12 +56,49 @@ class MagicSquare {
         return square;
     }
 
-    public static int getHorizontalSum(ArrayList<Integer> row) {
-        int sum = 0;
-        for (int i : row) {
-            sum += i;
+    public static void printSquare(ArrayList<ArrayList<Integer>> square) {
+        for (ArrayList<Integer> row : square) {
+            System.out.println(row);
         }
-        return sum;
+    }
+
+    public static List<Integer> getSums(ArrayList<ArrayList<Integer>> square) {
+        List<Integer> sums = new ArrayList<Integer>();
+        sums.add(calculatePositiveDiagonalSum(square));
+        sums.add(calculateNegativeDiagonalSum(square));
+
+        List<Integer> horizonalSums = calculateHorizontalSums(square);
+        List<Integer> verticalSums = calculateVerticalSums(square);
+
+        for (int i = 0; i < horizonalSums.size(); i ++) {
+            sums.add(horizonalSums.get(i));
+            sums.add(verticalSums.get(i));
+        }
+        return sums;
+    }
+
+    public static List<Integer> calculateHorizontalSums(ArrayList<ArrayList<Integer>> square) {
+        List<Integer> horizontalSums = new ArrayList<Integer>();
+        for (int i = 0; i < square.size(); i ++) {
+            int sum = 0; 
+            for (int j : square.get(i)) {
+                sum += j;
+            }
+            horizontalSums.add(sum);
+        }
+        return horizontalSums;
+    }
+
+    public static List<Integer> calculateVerticalSums(ArrayList<ArrayList<Integer>> square) {
+        List<Integer> verticalSums = new ArrayList<Integer>();
+        for (int i = 0; i < square.size(); i ++) {
+            int sum = 0; 
+            for (int j = 0; j < square.size(); j ++) {
+                sum += square.get(j).get(i);
+            }
+            verticalSums.add(sum);
+        }
+        return verticalSums;
     }
 
     public static int calculatePositiveDiagonalSum(ArrayList<ArrayList<Integer>> square) {
@@ -66,11 +111,18 @@ class MagicSquare {
 
     public static int calculateNegativeDiagonalSum(ArrayList<ArrayList<Integer>> square) {
         int sum = 0; 
-        for (int i = 0, j = square.size() - 1; i < square.size() && j > 0; i ++, j --) {
+        for (int i = 0, j = square.size() - 1; i < square.size() && j >= 0; i ++, j --) {
             sum += square.get(i).get(j);
         }
         return sum;
     }
-    
 
+    public static boolean isMagicSquare(List<Integer> sums) {
+        for (int i = 1; i < sums.size(); i ++) {
+           if (!sums.get(i).equals(sums.get(i - 1))) {
+               return false;
+           } 
+        }
+        return true;
+    }
 }
