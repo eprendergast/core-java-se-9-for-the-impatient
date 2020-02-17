@@ -22,6 +22,6 @@ class LotteryNumbers {
             winningNumbers.add(i, numbers.get(index));
             numbers.remove(index);
         }
-        return winningNumbers; //test
+        return winningNumbers;
     }
 }
