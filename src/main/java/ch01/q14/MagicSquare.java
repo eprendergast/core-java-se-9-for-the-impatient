@@ -8,19 +8,15 @@ import java.util.Scanner;
 class MagicSquare {
 
     public static void main(String[] args) {
-        // get first row of square
+
         String firstRow = getInput("Please enter the first row of the square as integers separated by a single space: ");
         ArrayList<Integer> firstRowAsArray = parseInputToArray(firstRow);
-        
-        // given the length of the first row, prompt user to input remaining rows of the square
+
         ArrayList<ArrayList<Integer>> square = getRemainderOfSquare(firstRowAsArray);
         System.out.println("Your square: ");
         printSquare(square);
-        
-        // calculate sums
-        List<Integer> sums = getSums(square);
 
-        // get result
+        List<Integer> sums = getSums(square);
         boolean isMagicSquare = isMagicSquare(sums);
         System.out.println(isMagicSquare ? "You've entered a Magic Square!" : "This is not a Magic Square");
     }
@@ -33,7 +29,6 @@ class MagicSquare {
 
     public static ArrayList<Integer> parseInputToArray(String input) {
         ArrayList<Integer> inputAsArray = new ArrayList<Integer>();
-        // List<Integer> a = new LinkedList<Integer>();
         String[] inputAsArrayOfStrings = input.split(" ");
         for (String i : inputAsArrayOfStrings) {
             inputAsArray.add(Integer.parseInt(i));
