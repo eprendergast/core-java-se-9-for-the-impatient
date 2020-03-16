@@ -18,8 +18,8 @@ public class Invoice {
         String description;
         int quantity;
         double unitPrice;
-
         double price() { return quantity * unitPrice; }
+
         public String toString() {
             return quantity + " x " + description + " @ $" + unitPrice + " each";
         }
@@ -41,6 +41,10 @@ public class Invoice {
         items.add(newItem);
     }
 
+    public void removeItem(){
+
+    }
+
     public void printTotal() {
         System.out.println("The invoice total is " + this.calculateTotal());
     }
@@ -48,7 +52,7 @@ public class Invoice {
     public double calculateTotal() {
         double total = 0;
         for(Item item : this.items) {
-            total += ((double) item.unitPrice * item.price());
+            total += (item.price());
         }
         return total;
     }
