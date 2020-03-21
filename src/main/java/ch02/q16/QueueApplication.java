@@ -14,6 +14,8 @@ public class QueueApplication {
         System.out.println(queue.toString());
         queue.remove();
         System.out.println(queue.toString());
+        queue.add("Fourth node");
+        System.out.println(queue.toString());
     }
 
 }
