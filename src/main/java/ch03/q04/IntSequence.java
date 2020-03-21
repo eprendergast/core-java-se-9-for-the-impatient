@@ -13,6 +13,7 @@ public interface IntSequence {
        return new IntSequence() {
            private int index = 0;
 
+           @Override
            public boolean hasNext() {
                return index < integers.length;
            }
@@ -22,6 +23,14 @@ public interface IntSequence {
                index ++;
                return value;
            }
+       };
+    }
+
+    static IntSequence constant(int i) {
+       return new IntSequence() {
+          public int next() {
+              return i;
+          }
        };
     }
 }
