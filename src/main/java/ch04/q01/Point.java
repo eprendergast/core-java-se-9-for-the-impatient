@@ -3,21 +3,29 @@ package ch04.q01;
 import java.util.Objects;
 
 public class Point {
-    
-    double x;
-    double y;
+
+    protected double x;
+    protected double y;
 
     public Point(double x, double y) {
         this.x = x;
         this.y = y;
     }
 
-    public double getX(){
-        return this.x;
+    public double getX() {
+        return x;
     }
 
-    public double getY(){
-        return this.y;
+    public double getY() {
+        return y;
+    }
+
+    public void setX(double x) {
+        this.x = x;
+    }
+
+    public void setY(double y) {
+        this.y = y;
     }
 
     @Override

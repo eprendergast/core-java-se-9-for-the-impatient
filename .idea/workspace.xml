@@ -2,23 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="686f8272-27d8-44df-956f-9999585f429d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ch03/q08/LuckySort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ch04/q01/LabeledPoint.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ch04/q01/Point.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/ch02/q04/IntegerSwap.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/ch02/q10/RandomNumbers.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/ch02/q15/Invoice$Item.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/ch02/q15/Invoice.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/ch02/q16/Queue$Node.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/ch02/q16/Queue.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/ch02/q16/QueueApplication.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/ch03/q03/Supertypes.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/ch03/q04/IntSequence.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/ch03/q04/Runner.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/ch03/q08/LuckySort.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ch04/q01/Runner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ch04/q04/Circle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ch04/q04/Line.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ch04/q04/Rectangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ch04/q04/Shape.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ch03/q01/Employee.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ch03/q01/Employee.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ch03/q01/Measurable.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ch03/q01/Measurable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ch04/q01/Point.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ch04/q01/Point.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +41,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
-  <component name="RunManager" selected="Application.Runner">
+  <component name="RunManager" selected="Application.Runner (1)">
     <configuration name="Employee" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ch03.q01.Employee" />
       <module name="core-java-se-9-for-the-impatient" />
@@ -65,8 +55,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Queue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ch02.q16.Queue" />
+    <configuration name="QueueApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ch02.q16.QueueApplication" />
       <module name="core-java-se-9-for-the-impatient" />
       <extension name="coverage">
         <pattern>
@@ -78,12 +68,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="QueueApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ch02.q16.QueueApplication" />
+    <configuration name="Runner (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ch04.q01.Runner" />
       <module name="core-java-se-9-for-the-impatient" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ch02.q16.*" />
+          <option name="PATTERN" value="ch04.q01.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -119,11 +109,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Runner (1)" />
         <item itemvalue="Application.Runner" />
         <item itemvalue="Application.Supertypes" />
         <item itemvalue="Application.Employee" />
         <item itemvalue="Application.QueueApplication" />
-        <item itemvalue="Application.Queue" />
       </list>
     </recent_temporary>
   </component>
@@ -141,44 +131,45 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="455" y="169" key="#com.intellij.ide.util.MemberChooser" timestamp="1585498519001">
-      <screen x="0" y="23" width="1440" height="877" />
+    <state x="313" y="-1181" key="#com.intellij.ide.util.MemberChooser" timestamp="1585665035382">
+      <screen x="-496" y="-1417" width="2560" height="1417" />
     </state>
+    <state x="313" y="-1181" key="#com.intellij.ide.util.MemberChooser/0.23.1440.877/-496.-1417.2560.1417@-496.-1417.2560.1417" timestamp="1585665035382" />
     <state x="455" y="169" key="#com.intellij.ide.util.MemberChooser/0.23.1440.877/-537.-1417.2560.1417@0.23.1440.877" timestamp="1584104675742" />
     <state x="455" y="169" key="#com.intellij.ide.util.MemberChooser/0.23.1440.877@0.23.1440.877" timestamp="1585498519001" />
-    <state width="1419" height="149" key="GridCell.Tab.0.bottom" timestamp="1584909723616">
-      <screen x="0" y="23" width="1440" height="877" />
+    <state width="2539" height="274" key="GridCell.Tab.0.bottom" timestamp="1585662400945">
+      <screen x="-496" y="-1417" width="2560" height="1417" />
     </state>
     <state width="1419" height="222" key="GridCell.Tab.0.bottom/0.0.1440.900/-257.-1080.1920.1080@0.0.1440.900" timestamp="1584466413769" />
     <state width="1419" height="222" key="GridCell.Tab.0.bottom/0.23.1440.877/-257.-1057.1920.1057@0.23.1440.877" timestamp="1584461179028" />
-    <state width="2539" height="399" key="GridCell.Tab.0.bottom/0.23.1440.877/-496.-1417.2560.1417@-496.-1417.2560.1417" timestamp="1584807533568" />
+    <state width="2539" height="274" key="GridCell.Tab.0.bottom/0.23.1440.877/-496.-1417.2560.1417@-496.-1417.2560.1417" timestamp="1585662400945" />
     <state width="2539" height="401" key="GridCell.Tab.0.bottom/0.23.1440.877/-537.-1417.2560.1417@-537.-1417.2560.1417" timestamp="1583847656028" />
     <state width="1419" height="222" key="GridCell.Tab.0.bottom/0.23.1440.877/-537.-1417.2560.1417@0.23.1440.877" timestamp="1584108851407" />
     <state width="1419" height="149" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1584909723616" />
-    <state width="1419" height="149" key="GridCell.Tab.0.center" timestamp="1584909723616">
-      <screen x="0" y="23" width="1440" height="877" />
+    <state width="2539" height="274" key="GridCell.Tab.0.center" timestamp="1585662400944">
+      <screen x="-496" y="-1417" width="2560" height="1417" />
     </state>
     <state width="1419" height="222" key="GridCell.Tab.0.center/0.0.1440.900/-257.-1080.1920.1080@0.0.1440.900" timestamp="1584466413767" />
     <state width="1419" height="222" key="GridCell.Tab.0.center/0.23.1440.877/-257.-1057.1920.1057@0.23.1440.877" timestamp="1584461179027" />
-    <state width="2539" height="399" key="GridCell.Tab.0.center/0.23.1440.877/-496.-1417.2560.1417@-496.-1417.2560.1417" timestamp="1584807533568" />
+    <state width="2539" height="274" key="GridCell.Tab.0.center/0.23.1440.877/-496.-1417.2560.1417@-496.-1417.2560.1417" timestamp="1585662400944" />
     <state width="2539" height="401" key="GridCell.Tab.0.center/0.23.1440.877/-537.-1417.2560.1417@-537.-1417.2560.1417" timestamp="1583847656027" />
     <state width="1419" height="222" key="GridCell.Tab.0.center/0.23.1440.877/-537.-1417.2560.1417@0.23.1440.877" timestamp="1584108851406" />
     <state width="1419" height="149" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1584909723616" />
-    <state width="1419" height="149" key="GridCell.Tab.0.left" timestamp="1584909723615">
-      <screen x="0" y="23" width="1440" height="877" />
+    <state width="2539" height="274" key="GridCell.Tab.0.left" timestamp="1585662400944">
+      <screen x="-496" y="-1417" width="2560" height="1417" />
     </state>
     <state width="1419" height="222" key="GridCell.Tab.0.left/0.0.1440.900/-257.-1080.1920.1080@0.0.1440.900" timestamp="1584466413767" />
     <state width="1419" height="222" key="GridCell.Tab.0.left/0.23.1440.877/-257.-1057.1920.1057@0.23.1440.877" timestamp="1584461179026" />
-    <state width="2539" height="399" key="GridCell.Tab.0.left/0.23.1440.877/-496.-1417.2560.1417@-496.-1417.2560.1417" timestamp="1584807533567" />
+    <state width="2539" height="274" key="GridCell.Tab.0.left/0.23.1440.877/-496.-1417.2560.1417@-496.-1417.2560.1417" timestamp="1585662400944" />
     <state width="2539" height="401" key="GridCell.Tab.0.left/0.23.1440.877/-537.-1417.2560.1417@-537.-1417.2560.1417" timestamp="1583847656026" />
     <state width="1419" height="222" key="GridCell.Tab.0.left/0.23.1440.877/-537.-1417.2560.1417@0.23.1440.877" timestamp="1584108851406" />
     <state width="1419" height="149" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1584909723615" />
-    <state width="1419" height="149" key="GridCell.Tab.0.right" timestamp="1584909723616">
-      <screen x="0" y="23" width="1440" height="877" />
+    <state width="2539" height="274" key="GridCell.Tab.0.right" timestamp="1585662400944">
+      <screen x="-496" y="-1417" width="2560" height="1417" />
     </state>
     <state width="1419" height="222" key="GridCell.Tab.0.right/0.0.1440.900/-257.-1080.1920.1080@0.0.1440.900" timestamp="1584466413768" />
     <state width="1419" height="222" key="GridCell.Tab.0.right/0.23.1440.877/-257.-1057.1920.1057@0.23.1440.877" timestamp="1584461179027" />
-    <state width="2539" height="399" key="GridCell.Tab.0.right/0.23.1440.877/-496.-1417.2560.1417@-496.-1417.2560.1417" timestamp="1584807533568" />
+    <state width="2539" height="274" key="GridCell.Tab.0.right/0.23.1440.877/-496.-1417.2560.1417@-496.-1417.2560.1417" timestamp="1585662400944" />
     <state width="2539" height="401" key="GridCell.Tab.0.right/0.23.1440.877/-537.-1417.2560.1417@-537.-1417.2560.1417" timestamp="1583847656027" />
     <state width="1419" height="222" key="GridCell.Tab.0.right/0.23.1440.877/-537.-1417.2560.1417@0.23.1440.877" timestamp="1584108851407" />
     <state width="1419" height="149" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1584909723616" />
