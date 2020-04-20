@@ -7,9 +7,9 @@ import java.util.Scanner;
 
 public class FileReader {
 
-    public ArrayList<Double> readValues(String filename) throws FileNotFoundException {
+    public ArrayList<Double> readValues(String filename) throws FileNotFoundException, IllegalArgumentException {
 
-        ArrayList<Double> values = new ArrayList<Double>();
+        ArrayList<Double> values = new ArrayList<>();
 
         File file = new File(filename);
 
@@ -28,6 +28,18 @@ public class FileReader {
             values.add(num);
         }
         return values;
+    }
+
+    public double sumOfValues(String filename) throws FileNotFoundException {
+        ArrayList<Double> values = this.readValues(filename);
+
+        double sum = 0;
+
+        for (Double value : values) {
+            sum += value;
+        }
+
+        return sum;
     }
 
 }

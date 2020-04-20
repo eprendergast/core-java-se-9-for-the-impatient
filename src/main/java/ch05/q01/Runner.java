@@ -12,6 +12,8 @@ public class Runner {
 
         try {
             ArrayList<Double> values = reader.readValues(filename);
+            double sum = reader.sumOfValues(filename);
+            System.out.println(sum);
         } catch (FileNotFoundException | IllegalArgumentException e) {
             e.printStackTrace();
         }
