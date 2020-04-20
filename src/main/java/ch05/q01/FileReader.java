@@ -24,7 +24,6 @@ public class FileReader {
             }
 
             Double num = scanner.nextDouble();
-            System.out.println(num);
             values.add(num);
         }
         return values;
@@ -40,6 +39,10 @@ public class FileReader {
         }
 
         return sum;
+    }
+
+    public void printSum(String filename) throws FileNotFoundException {
+        System.out.println(sumOfValues(filename));
     }
 
 }
