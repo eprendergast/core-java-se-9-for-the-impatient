@@ -1,11 +1,8 @@
 package ch05.q05;
 
-import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.PrintWriter;
 import java.util.Scanner;
-
-import com.sun.javaws.exceptions.InvalidArgumentException;
 
 public class WriteAndCloseFile {
 
