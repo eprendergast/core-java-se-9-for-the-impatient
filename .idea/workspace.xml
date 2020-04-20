@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="686f8272-27d8-44df-956f-9999585f429d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/ch05/q01/FileReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ch05/q01/FileReader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ch05/q01/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ch05/q01/Runner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ch05/q05/Runner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ch05/q05/WriteAndCloseFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ch05/q05/emptyFile.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ch05/q05/sampleText.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,7 +43,7 @@
       <recent name="$PROJECT_DIR$/src/main/java/ch05/q01/textFiles" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Runner (3)">
+  <component name="RunManager" selected="Application.Runner">
     <configuration name="FileReader" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ch05.q01.FileReader" />
       <module name="core-java-se-9-for-the-impatient" />
@@ -60,19 +63,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="ch05.q01.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Runner (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ch04.q01.Runner" />
-      <module name="core-java-se-9-for-the-impatient" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ch04.q01.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -106,13 +96,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Runner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ch05.q05.Runner" />
+      <module name="core-java-se-9-for-the-impatient" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ch05.q05.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Runner" />
         <item itemvalue="Application.Runner (3)" />
         <item itemvalue="Application.IllegalArgumentRunner" />
         <item itemvalue="Application.FileReader" />
         <item itemvalue="Application.Runner (2)" />
-        <item itemvalue="Application.Runner (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -130,6 +133,10 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="506" y="-900" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1587411656929">
+      <screen x="-496" y="-1417" width="2560" height="1417" />
+    </state>
+    <state x="506" y="-900" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1440.877/-496.-1417.2560.1417@-496.-1417.2560.1417" timestamp="1587411656929" />
     <state x="313" y="-1181" key="#com.intellij.ide.util.MemberChooser" timestamp="1585665035382">
       <screen x="-496" y="-1417" width="2560" height="1417" />
     </state>
@@ -140,39 +147,39 @@
       <screen x="-496" y="-1417" width="2560" height="1417" />
     </state>
     <state x="673" y="-1246" key="#xdebugger.evaluate/0.23.1440.877/-496.-1417.2560.1417@-496.-1417.2560.1417" timestamp="1587407824158" />
-    <state width="2539" height="392" key="GridCell.Tab.0.bottom" timestamp="1587408944407">
+    <state width="2539" height="392" key="GridCell.Tab.0.bottom" timestamp="1587409296893">
       <screen x="-496" y="-1417" width="2560" height="1417" />
     </state>
     <state width="1419" height="222" key="GridCell.Tab.0.bottom/0.0.1440.900/-257.-1080.1920.1080@0.0.1440.900" timestamp="1584466413769" />
     <state width="1419" height="222" key="GridCell.Tab.0.bottom/0.23.1440.877/-257.-1057.1920.1057@0.23.1440.877" timestamp="1584461179028" />
-    <state width="2539" height="392" key="GridCell.Tab.0.bottom/0.23.1440.877/-496.-1417.2560.1417@-496.-1417.2560.1417" timestamp="1587408944407" />
+    <state width="2539" height="392" key="GridCell.Tab.0.bottom/0.23.1440.877/-496.-1417.2560.1417@-496.-1417.2560.1417" timestamp="1587409296893" />
     <state width="2539" height="401" key="GridCell.Tab.0.bottom/0.23.1440.877/-537.-1417.2560.1417@-537.-1417.2560.1417" timestamp="1583847656028" />
     <state width="1419" height="222" key="GridCell.Tab.0.bottom/0.23.1440.877/-537.-1417.2560.1417@0.23.1440.877" timestamp="1584108851407" />
     <state width="1419" height="149" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1584909723616" />
-    <state width="2539" height="392" key="GridCell.Tab.0.center" timestamp="1587408944406">
+    <state width="2539" height="392" key="GridCell.Tab.0.center" timestamp="1587409296893">
       <screen x="-496" y="-1417" width="2560" height="1417" />
     </state>
     <state width="1419" height="222" key="GridCell.Tab.0.center/0.0.1440.900/-257.-1080.1920.1080@0.0.1440.900" timestamp="1584466413767" />
     <state width="1419" height="222" key="GridCell.Tab.0.center/0.23.1440.877/-257.-1057.1920.1057@0.23.1440.877" timestamp="1584461179027" />
-    <state width="2539" height="392" key="GridCell.Tab.0.center/0.23.1440.877/-496.-1417.2560.1417@-496.-1417.2560.1417" timestamp="1587408944406" />
+    <state width="2539" height="392" key="GridCell.Tab.0.center/0.23.1440.877/-496.-1417.2560.1417@-496.-1417.2560.1417" timestamp="1587409296893" />
     <state width="2539" height="401" key="GridCell.Tab.0.center/0.23.1440.877/-537.-1417.2560.1417@-537.-1417.2560.1417" timestamp="1583847656027" />
     <state width="1419" height="222" key="GridCell.Tab.0.center/0.23.1440.877/-537.-1417.2560.1417@0.23.1440.877" timestamp="1584108851406" />
     <state width="1419" height="149" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1584909723616" />
-    <state width="2539" height="392" key="GridCell.Tab.0.left" timestamp="1587408944406">
+    <state width="2539" height="392" key="GridCell.Tab.0.left" timestamp="1587409296892">
       <screen x="-496" y="-1417" width="2560" height="1417" />
     </state>
     <state width="1419" height="222" key="GridCell.Tab.0.left/0.0.1440.900/-257.-1080.1920.1080@0.0.1440.900" timestamp="1584466413767" />
     <state width="1419" height="222" key="GridCell.Tab.0.left/0.23.1440.877/-257.-1057.1920.1057@0.23.1440.877" timestamp="1584461179026" />
-    <state width="2539" height="392" key="GridCell.Tab.0.left/0.23.1440.877/-496.-1417.2560.1417@-496.-1417.2560.1417" timestamp="1587408944406" />
+    <state width="2539" height="392" key="GridCell.Tab.0.left/0.23.1440.877/-496.-1417.2560.1417@-496.-1417.2560.1417" timestamp="1587409296892" />
     <state width="2539" height="401" key="GridCell.Tab.0.left/0.23.1440.877/-537.-1417.2560.1417@-537.-1417.2560.1417" timestamp="1583847656026" />
     <state width="1419" height="222" key="GridCell.Tab.0.left/0.23.1440.877/-537.-1417.2560.1417@0.23.1440.877" timestamp="1584108851406" />
     <state width="1419" height="149" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1584909723615" />
-    <state width="2539" height="392" key="GridCell.Tab.0.right" timestamp="1587408944407">
+    <state width="2539" height="392" key="GridCell.Tab.0.right" timestamp="1587409296893">
       <screen x="-496" y="-1417" width="2560" height="1417" />
     </state>
     <state width="1419" height="222" key="GridCell.Tab.0.right/0.0.1440.900/-257.-1080.1920.1080@0.0.1440.900" timestamp="1584466413768" />
     <state width="1419" height="222" key="GridCell.Tab.0.right/0.23.1440.877/-257.-1057.1920.1057@0.23.1440.877" timestamp="1584461179027" />
-    <state width="2539" height="392" key="GridCell.Tab.0.right/0.23.1440.877/-496.-1417.2560.1417@-496.-1417.2560.1417" timestamp="1587408944407" />
+    <state width="2539" height="392" key="GridCell.Tab.0.right/0.23.1440.877/-496.-1417.2560.1417@-496.-1417.2560.1417" timestamp="1587409296893" />
     <state width="2539" height="401" key="GridCell.Tab.0.right/0.23.1440.877/-537.-1417.2560.1417@-537.-1417.2560.1417" timestamp="1583847656027" />
     <state width="1419" height="222" key="GridCell.Tab.0.right/0.23.1440.877/-537.-1417.2560.1417@0.23.1440.877" timestamp="1584108851407" />
     <state width="1419" height="149" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1584909723616" />
