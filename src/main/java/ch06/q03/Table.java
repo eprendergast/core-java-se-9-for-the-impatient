@@ -1,6 +1,7 @@
 package ch06.q03;
 
 import java.util.ArrayList;
+import java.util.List;
 
 public class Table<K, V> {
 
@@ -15,17 +16,15 @@ public class Table<K, V> {
         }
     }
 
-    private ArrayList<Entry> table = new ArrayList<>();
+    private List<Entry> table = new ArrayList<>();
 
-    public Table() {}
-
-    public V getValue(K key) {
+    public V get(K key) {
         Entry entry = findEntry(key);
         if (entry == null) return null;
         return (V) entry.value;
     }
 
-    public void putValue(K key, V value) {
+    public void put(K key, V value) {
         Entry entry = findEntry(key);
 
         if (entry == null) {
@@ -35,13 +34,12 @@ public class Table<K, V> {
         }
     }
 
-    public Entry remove(K key) {
+    public V remove(K key) {
         Entry entry = findEntry(key);
-
         if (entry == null) return null;
 
         table.remove(entry);
-        return entry;
+        return (V) entry.value;
     }
 
     private Entry findEntry(K key) {
