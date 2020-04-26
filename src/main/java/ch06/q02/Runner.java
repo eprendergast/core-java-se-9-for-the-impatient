@@ -10,7 +10,7 @@ public class Runner {
 
         stack.push("Hello");
         stack.push("World");
-        
+
         System.out.println(stack.toString());
     }
 

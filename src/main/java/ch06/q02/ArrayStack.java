@@ -1,9 +1,5 @@
 package ch06.q02;
 
-import java.util.Arrays;
-
-import com.sun.tools.javac.util.ArrayUtils;
-
 public class ArrayStack<E> {
 
     private E[] stack;
