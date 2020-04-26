@@ -3,11 +3,11 @@ package ch06.q01;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Stack<E> {
+public class ArrayListStack<E> {
 
-    List<E> stack = new ArrayList<>();
+    public List<E> stack = new ArrayList<>();
 
-    public Stack() {
+    public ArrayListStack() {
     }
 
     public void push(E element) {
